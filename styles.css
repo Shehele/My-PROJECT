@@ -33,3 +33,107 @@ footer{
     bottom: 0;
     width: 100%;
 }
+.contact-section{
+    text-align: center;
+    margin-top: 50px;
+}
+.social-icons{
+    list-style-type: none;
+    padding: 0;
+
+}
+.social-icons li{
+    display: inline-block;
+    margin-right: 10px;
+}
+.social-icons li:last-child{
+    margin-right: 0;
+}
+.social-icons li a{
+    color: #555;
+    text-decoration: none;
+    font-size: 24px;
+}
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.destination{
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.destination img{
+    max-width: 100%;/* Ensure the image does not exceed its container width */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.destination h2 {
+    margin-top: 0;
+}
+.price {
+    font-weight: bnold;
+    color:#007bff;
+}
+.booking-button {
+    background-color: #007bff;
+    color: #f3cd65;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration:none;
+    display:inline-block;
+    cursor: pointer;
+    transition:background-color 0.3s ease;
+}
+.booking-button:hover {
+    background-color: #0056b3;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+h1 {
+    margin-top: 50px;
+    text-align: center;
+}
+p {
+    margin: 20px auto;
+    max-width: 600px;
+    text-align: center;
+}
+.service {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.service img {
+    width: 300px;
+    height: auto;
+}
+.service-info {
+    max-width: 400px;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
