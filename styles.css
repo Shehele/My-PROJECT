@@ -52,7 +52,7 @@ footer{
 .social-icons li a{
     color: #555;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 50px;
 }
 body{
     font-family: Arial, sans-serif;
@@ -314,10 +314,5 @@ button {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    width: 100px;
-}
-
-/* Change the button color on hover */
-button:hover {
-    background-color: #45a049;
+    width: 100px
 }
